@@ -1,0 +1,9 @@
+{
+    "name": "lortnus/zf1",
+    "description": "Zend Framework",
+    "version": "1.6.2",
+    "require": {
+        "php": ">=5.2.3"
+    }
+}
+
