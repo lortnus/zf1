@@ -2176,7 +2176,7 @@ class Zend_Date extends Zend_Date_DateObject
                     throw new Zend_Date_Exception("unsupported ISO8601 format ($date)", $date);
                 }
                 if (!empty($timematch)) {
-                    $tmpdate = substr($tmpdate, strlen($timematch[0])); 
+                    $tmpdate = substr($tmpdate, strlen($timematch[0]));
                 }
                 if (empty($datematch)) {
                     $datematch[1] = 1970;
@@ -2875,7 +2875,7 @@ class Zend_Date extends Zend_Date_DateObject
      */
     public function getDate($locale = null)
     {
-        return $this->copyPart(self::DATE_FULL, $locale);
+        return $this->copyPart(self::DATE_LONG, $locale);
     }
 
 
